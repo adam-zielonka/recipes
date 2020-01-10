@@ -2,8 +2,8 @@
 
 ## Składniki
 
-* ziemniaki (na jedną osobę wystarczą 6-8 ziemniaków, na sześć osób 1,5 kg powinno wystarczyć)
-* cebula (na jedną osobę 1/2 średniej cebuli, na cztery cała)
+* ziemniaki (na jedną osobę wystarczą 6-8 ziemniaków, na sześć osób 1,5 kg powinno wystarczyć, lecz ja użyłem 3 kg i starczyło na styk)
+* cebula (na jedną osobę 1/2 średniej cebuli, na cztery cała, na 6 osób użyłem 2 cebul)
 * jajko (zawsze jedno), (kupić klasę 1 lub 2, nie kupować klasy 3, bo są najgorszej jakości)
 * mąka pszenna
 * sól
