@@ -30,5 +30,5 @@
 6. Jeżeli danie przygotowywane jest na następny dzień to przysypać cięką warstwą mąki i włożyć do lodówki. Następnego dnia górną warstwę masy (zaciemniała ona przez noc) usunąć.
 7. Dodać jajko i łyżkę mąki (jeśli masa jest za rzadka dodać kolejną łyżkę mąki). Dodać sól i pieprz. (Dodać szczypiorek i boczek)
 8. Wymieszać dokładnie
-9. Smażyć na rozgrzanej patelni z olejem (jak placki mocno ciągną olej to dolać trzeba)
+9. Smażyć na rozgrzanej patelni z olejem (jak placki mocno ciągną olej to dolać trzeba), przewracać dwoma widelcami gdy placki zapieką się od spodu (będzie to widać po obwódce wokół placku)
 
