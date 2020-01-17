@@ -24,6 +24,7 @@
 4. (dodać łyżkę oleju jeśli gotuje się dzień wcześniej)
 5. Spróbować czy makaron jest miękki jeśli tak to skończyć gotować
 6. Przewrócić makaron na sitko nad zlewem i przelać zimną wodą
+7. (Jeśli makaron jest przygotowywany dzień wcześniej, można go przelać wodą aby był pardziej elastyczny)
 
 ## Sos
 
