@@ -1,9 +1,11 @@
 pages:
   image: node:alpine
+  stage: deploy
   script:
-    - yarn global add gitbook-cli 
-    - gitbook build
-    - mv _book public
+    - yarn global add gitbook-cli
+    - gitbook fetch latest
+    - gitbook install
+    - gitbook build . public 
   artifacts:
     expire_in: 1 week
     paths:
