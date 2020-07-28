@@ -5,7 +5,7 @@ cache:
     - node_modules/
 
 before_script:
-  - yarn add gitbook-cli 
+  - yarn
   - node node_modules/gitbook-cli/bin/gitbook.js fetch 3.2.3
   - node node_modules/gitbook-cli/bin/gitbook.js install
     
