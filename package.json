@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "gitbook-cli": "^2.3.2"
+    "honkit": "^3.5.2"
   },
   "scripts": {
-    "build": "gitbook build . public"
+    "build": "honkit build . public",
+    "serve": "honkit serve"
   }
 }
