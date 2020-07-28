@@ -12,6 +12,5 @@ pages:
   cache:
     paths:
     - node_modules
-    - ../../../tmp/
   only:
   - master
