@@ -1,0 +1,12 @@
+pages:
+  image: node:alpine
+  script:
+    - yarn global add gitbook-cli 
+    - gitbook build
+    - mv _book public
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - public
+  only:
+    - master
