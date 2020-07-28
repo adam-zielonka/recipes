@@ -1,5 +1,9 @@
+# node
+node_modules
+
 # Book build output
 _book
+public
 
 # eBook build output
 *.epub
