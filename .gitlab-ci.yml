@@ -1,21 +1,16 @@
 image: node:10
-
-cache:
-  paths:
-    - node_modules/
-
-before_script:
-  - yarn
-  # - node node_modules/gitbook-cli/bin/gitbook.js fetch 3.2.3
-  # - node node_modules/gitbook-cli/bin/gitbook.js install
     
 pages:
   stage: deploy
   script:
-    - yarn build
+  - yarn
+  - yarn build
   artifacts:
     paths:
-      - public
+    - public
     expire_in: 1 week
+  cache:
+    paths:
+    - node_modules
   only:
-    - master
+  - master
