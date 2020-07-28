@@ -6,14 +6,13 @@ cache:
 
 before_script:
   - yarn add gitbook-cli 
-  - alias gitbook="node node_modules/gitbook-cli/bin/gitbook.js"
-  - gitbook fetch 3.2.3
-  - gitbook install
+  - node node_modules/gitbook-cli/bin/gitbook.js fetch 3.2.3
+  - node node_modules/gitbook-cli/bin/gitbook.js install
     
 pages:
   stage: deploy
   script:
-    - gitbook build . public
+    - node node_modules/gitbook-cli/bin/gitbook.js build . public
   artifacts:
     paths:
       - public
