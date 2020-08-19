@@ -1,6 +1,5 @@
-image: node:alpine
-
 test:
+  image: node
   stage: test
   script:
     - node script.js 
@@ -10,6 +9,7 @@ test:
 
 
 pages:
+  image: node:alpine
   stage: deploy
   script:
   - yarn
