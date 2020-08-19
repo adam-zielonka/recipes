@@ -1,5 +1,14 @@
 image: node:alpine
-    
+
+test:
+  stage: test
+  script:
+    - node script.js 
+  services:
+    - name: erikvl87/languagetool
+      alias: languagetool
+
+
 pages:
   stage: deploy
   script:
