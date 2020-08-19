@@ -7,7 +7,6 @@ test:
     - name: erikvl87/languagetool
       alias: languagetool
 
-
 pages:
   image: node:alpine
   stage: deploy
