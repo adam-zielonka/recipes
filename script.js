@@ -8,7 +8,7 @@ exec("ls *.md -1a", (error, out, err) => {
       file.split('\n').forEach((line, i) => {
         exec(`curl -s --data "language=pl-PL&text=${encodeURI(line)}" http://languagetool:8010/v2/check`, (error, out, err) => {
           if (JSON.parse(out).matches.length) {
-            console.log(`${fileName}:${i}\n` + JSON.stringify(JSON.parse(out).matches, null, 4))
+            console.log(`${fileName}:${i+1}\n` + JSON.stringify(JSON.parse(out).matches, null, 4))
           }
         })
       })
