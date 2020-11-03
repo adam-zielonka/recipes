@@ -1,5 +1,6 @@
+image: node:14.8.0
+
 test:
-  image: node:14.8.0
   stage: test
   script:
     - node script.js 
@@ -8,17 +9,15 @@ test:
       alias: languagetool
 
 pages:
-  image: node:alpine
   stage: deploy
   script:
-  - yarn
-  - yarn build
+  - node build.js > _sidebar.md
+  - mkdir .public
+  - cp -r * .public
+  - mv .public public
   artifacts:
+    expire_in: 1 day
     paths:
     - public
-    expire_in: 1 week
-  cache:
-    paths:
-    - node_modules
   only:
   - master

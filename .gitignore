@@ -1,11 +1,1 @@
-# node
-node_modules
-
-# Book build output
-_book
-public
-
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+_sidebar.md
