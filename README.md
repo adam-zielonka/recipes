@@ -1,3 +1,1 @@
-# Przepisy
-
-Głodny człowiek jeść musi
+docs/README.md
