@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Przepisy',
   tagline: 'Głodny człowiek jeść',
-  url: 'https://przepisy.adamzielonka.pro/',
-  baseUrl: '/',
+  url: 'https://adam-zielonka.github.io/',
+  baseUrl: '/recipes/',
   organizationName: 'adam-zielonka',
   projectName: 'recipes',
 
